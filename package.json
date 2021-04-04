@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-agilzei-api-heroku",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.8.0",
+    "faker": "^5.5.2"
+  },
+  "devDependencies": {
+    "@bahmutov/cy-api": "^1.5.0",
+    "cy-spok": "github:bahmutov/cy-spok",
+    "cypress-select-tests": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:test:healtcheck": "npx cypress run --env grep=@healtcheck",
+    "cy:test:contract": "npx cypress run --env grep=@contract",
+    "cy:test:functional": "npx cypress run --env grep=@functional"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
