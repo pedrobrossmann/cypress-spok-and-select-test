@@ -2,7 +2,7 @@
 
 ### Tecnologias Utilizadas:
 * Framework para crição dos testes [cypress](https://www.cypress.io/)
-* Biblioteca para testes de contrato [Mochawesome](https://github.com/bahmutov/cy-spok)
+* Biblioteca para testes de contrato [Spok](https://github.com/bahmutov/cy-spok)
 * Biblioteca para agrupar/executar testes por tipos [Cypress Select](https://www.npmjs.com/package/cypress-select-tests)
 #### 1. Clone o projeto
 
