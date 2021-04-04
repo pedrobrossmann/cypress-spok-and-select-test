@@ -36,7 +36,11 @@ jobs:
       # Instalando dependencias
       - run: npm install
       
-      # Executar os testes
-      - run: npm run cy:run 
-      
-      - run: npm run cy:run
+      # Executar os de contrato
+      - run: npm run cy:test:contract
+
+      # Executar os de funcionalidades
+      - run: npm run cy:test:functional
+
+      # Executar os de health
+      - run: npm run cy:test:healtcheck

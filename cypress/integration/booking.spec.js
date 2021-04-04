@@ -81,7 +81,7 @@ context('Booking', () => {
         })
     })
 
-    it.only('Tenta excluir uma reserva com token invalido @functional', () => {
+    it('Tenta excluir uma reserva com token invalido @functional', () => {
         req.postBooking().then(postBookingResponse => {
             req.deleteBookingInvalidToken(postBookingResponse).then(deletResponse => {
                 assetions.shouldHaveStatus(deletResponse, 403)
