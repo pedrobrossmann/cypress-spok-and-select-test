@@ -7,7 +7,7 @@
 #### 1. Clone o projeto
 
 ```
-git clone https://github.com/Bonfipa/api-heroku-desafio-04
+git clone https://github.com/pedrobrossmann/api-heroku-desafio-04.git
 cd api-heroku-desafio-04
 ```
 
