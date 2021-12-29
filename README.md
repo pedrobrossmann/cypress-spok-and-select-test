@@ -7,7 +7,7 @@
 #### 1. Clone o projeto
 
 ```
-git clone https://github.com/pedrobrossmann/api-heroku-desafio-04.git
+git clone https://github.com/pedrobrossmann/cypress-spok-and-select-test.git
 cd api-heroku-desafio-04
 ```
 
